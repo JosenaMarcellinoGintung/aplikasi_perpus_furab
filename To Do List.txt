@@ -1,0 +1,3 @@
+Langkah yang harus kalian kerjakan minggu ini :
+1. Buat Login Page, Dashboard, Database (termasuk tabel) sesuai dengan tujuan project kalian
+2. Buat Header dan foooter menggunakan metode include
