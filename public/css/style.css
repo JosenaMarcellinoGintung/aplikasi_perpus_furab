@@ -1,0 +1,113 @@
+/* RESET DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+    background-color: #ffffff;
+    padding: 20px 7%;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #174c3c;
+    text-decoration: none;
+}
+
+.logo-icon {
+    font-size: 35px;
+}
+
+.logo h2 {
+    font-size: 24px;
+}
+
+.logo p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.btn-keluar {
+    background-color: #176b50;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* MENU NAVIGASI */
+.menu {
+    background-color: #176b50;
+    padding: 15px 7%;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: #f4d77a;
+}
+
+/* BERANDA */
+.beranda {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #e7f3ed;
+    border-radius: 18px;
+}
+
+.teks {
+    flex: 1;
+}
+
+.label {
+    color: #176b50;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.teks h1 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.teks h1 span {
+    color: #176b50;
+}
