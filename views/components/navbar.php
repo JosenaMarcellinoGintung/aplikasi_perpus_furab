@@ -3,4 +3,5 @@
     <a href="/buku">Daftar Buku</a>
     <a href="/peminjaman">Peminjaman</a>
     <a href="/profil">Profil</a>
+    <li><a href="pages/register.php">Register</a></li>
 </nav>

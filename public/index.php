@@ -40,4 +40,21 @@ switch ($uri) {
         http_response_code(404);
         echo "404 - Halaman tidak ditemukan";
         break;
+
+        
+require_once __DIR__ . '/../app/controllers/PeminjamanController.php';
+
+$controller = new PeminjamanController();
+
+// cek URL parameter
+$page = $_GET['page'] ?? 'home';
+
+if ($page === 'peminjaman') {
+    include __DIR__ . '/../views/pages/peminjaman.php';
+} elseif ($page === 'login') {
+    include __DIR__ . '/../views/pages/login.php';
+} else {
+    include __DIR__ . '/../views/pages/home.php';
+}
+
 }
